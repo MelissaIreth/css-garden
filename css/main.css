@@ -4,17 +4,18 @@ body{
 }
 h1{
 	color: #50591b;
-	font-family: 'Pacifico', cursive;
-	font-weight: 700;
-	width: 20%;
+    font-size: 80px;
+	width: 50%;
 	margin: 0 auto;
+	font-family: 'Cabin Sketch', cursive, bold;
 }
 h2{
-	color: #55310c;
-	width: 30%;
+	color: rgba(105, 67, 29, 0.91);
+	font-size: 20px;
+	width: 50%;
 	margin: 0 auto;
 	font-family: 'Rubik', sans-serif;
-	font-weight: 700;
+	font-weight: 500;
 }
 h3{
 	color: #55310c;
@@ -24,19 +25,20 @@ h3{
 	font-weight: 700;
 }
 .summary{
-	color: #48473f;
+	color: #2f3815;
 	font-family: 'Verdana', cursive
 	font-size: 20;
     border-radius: 25px;
-    border: 2px solid #e9c482;
+    border: 2px solid #50591b;
     height: 100px; 
 	width: 40%;
 	margin: 0 auto;
 	padding: 10px;
 	margin-top: 10px;
+	box-shadow: inset 0px 0px 22px -1px rgba(0,0,0,0.4);
 }
 .preamble, .explanation, .participation, .benefits, .requirements{
-	color: #46453c;
+	color: #39460f;
 	font-family: 'Verdana', cursive
 	font-size: 10;
 	background-color: #e9c482;
@@ -44,7 +46,8 @@ h3{
 	margin: 0 auto;
 	margin-top: 10px;	
 	border-radius: 15px 50px;
-    padding: 20px; 
+    padding: 20px;
+    box-shadow: 5px 5px 35px -1px rgba(0,0,0,0.75); 
 }
 a:link, a:visited {
     color: #7d6f54;
@@ -56,6 +59,22 @@ a:link, a:visited {
 a:hover, a:active {
     background-color: #b4bf8c;
 }
+.design-selection{
+	margin-top: 30px;
+	float: left;
+	width: 20%;
+}
+.design-archives{
+	margin-top: 30px;
+	float: left;
+	width: 20%;
+}
+.zen-resources{
+	margin-top: 30px;
+	float: left;
+	width: 20%;
+}
 footer{
-
+	margin-top: 30px;
+	text-align: center;
 }
