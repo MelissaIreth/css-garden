@@ -16,6 +16,7 @@ h2{
 	margin: 0 auto;
 	font-family: 'Rubik', sans-serif;
 	font-weight: 500;
+	border-bottom:1px solid #313030;
 }
 h3{
 	color: #55310c;
@@ -28,14 +29,16 @@ h3{
 	color: #2f3815;
 	font-family: 'Verdana', cursive
 	font-size: 20;
+	/*
     border-radius: 25px;
-    border: 2px solid #50591b;
+    border: 2px solid #50591b;*/
     height: 100px; 
-	width: 40%;
+	width: 70%;
 	margin: 0 auto;
 	padding: 10px;
-	margin-top: 10px;
-	box-shadow: inset 0px 0px 22px -1px rgba(0,0,0,0.4);
+	margin-top: 0px;
+	border-bottom:1px solid #313030;
+	/*box-shadow: inset 0px 0px 22px -1px rgba(0,0,0,0.4);*/
 }
 .preamble, .explanation, .participation, .benefits, .requirements{
 	color: #39460f;
@@ -44,7 +47,8 @@ h3{
 	background-color: #e9c482;
 	width: 50%;
 	margin: 0 auto;
-	margin-top: 10px;	
+	margin-top: 10px;
+	margin-left: 140px;	
 	border-radius: 15px 50px;
     padding: 20px;
     box-shadow: 5px 5px 35px -1px rgba(0,0,0,0.75); 
@@ -61,20 +65,23 @@ a:hover, a:active {
 }
 .design-selection{
 	margin-top: 30px;
-	float: left;
+	margin-left: 900px;
+	margin-top: -1640px;
 	width: 20%;
 }
 .design-archives{
 	margin-top: 30px;
-	float: left;
+	margin-left: 900px;
 	width: 20%;
 }
 .zen-resources{
 	margin-top: 30px;
-	float: left;
+	margin-left: 900px;
 	width: 20%;
 }
 footer{
 	margin-top: 30px;
 	text-align: center;
+	margin-bottom: 30px;
+	border-bottom:1px solid #313030;
 }
